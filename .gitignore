@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Visual Studio Code
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Runtime
+pids/
+*.pid
+*.seed
+
+# Coverage
+coverage/
+
+# Dependencies
+node_modules/
+.bower/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db

@@ -1,0 +1,58 @@
+name: 💡 Feature Request
+description: 为FuFanAI提交新功能建议
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request
+
+        感谢您对FuFanAI的关注！请填写以下信息，帮助我们了解您的需求。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 解决的问题
+      description: 这个功能要解决什么问题？
+      placeholder: "描述你遇到的问题或需求..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 建议的解决方案
+      description: 你希望如何解决这个问题？
+      placeholder: "描述你期望的功能..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 📖 使用场景
+      description: 请描述一个具体的使用场景
+      placeholder: "例如：当我在整理客户反馈时，我希望..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📊 优先级
+      options:
+        - 高 — 日常必须，影响核心功能
+        - 中 — 重要，但有替代方案
+        - 低 — 锦上添花
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ☑️ 确认
+      options:
+        - label: 我理解这是建议，功能是否实现取决于开发团队
+          required: true

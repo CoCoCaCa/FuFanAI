@@ -1,0 +1,71 @@
+name: 🤝 Contributor Application
+description: 申请成为FuFanAI贡献者
+title: "[Contributor] "
+labels: ["contributor"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤝 成为FuFanAI贡献者
+
+        感谢您有兴趣参与FuFanAI项目！请填写以下信息，我们会尽快审核。
+
+        **贡献者权益：**
+        - 🚀 参与产品规划讨论
+        - 🎨 影响产品发展方向
+        - 📜 开源贡献记录
+        - 🎁 优先体验新功能
+
+  - type: input
+    id: username
+    attributes:
+      label: 👤 GitHub用户名
+      description: 你的GitHub用户名
+      placeholder: "例如：octocat"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 📝 技术背景
+      description: 你的技术背景和经验
+      placeholder: |
+        - 编程语言：
+        - 相关项目经验：
+        - 相关领域经验：
+    validations:
+      required: true
+
+  - type: textarea
+    id: interest
+    attributes:
+      label: 💡 参与意向
+      description: 你希望参与哪些方面的工作？
+      placeholder: |
+        - 功能开发
+        - 文档完善
+        - 测试反馈
+        - 产品设计
+        - 其他
+    validations:
+      required: false
+
+  - type: textarea
+    id: understanding
+    attributes:
+      label: 🌟 对项目的理解
+      description: 你对FuFanAI的理解或建议
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ☑️ 承诺
+      options:
+        - label: 我已阅读并同意遵守 [贡献指南](../CONTRIBUTING.md)
+          required: true
+        - label: 我理解贡献需要持续投入
+          required: true

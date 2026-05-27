@@ -1,0 +1,59 @@
+name: 🌟 User Showcase
+description: 分享你使用FuFanAI的案例和经验
+title: "[Showcase] "
+labels: ["showcase"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🌟 用户案例分享
+
+        分享你使用FuFanAI的经验，帮助其他用户更好地了解产品价值！
+
+  - type: input
+    id: title
+    attributes:
+      label: 📌 案例标题
+      description: 用一句话概括你的使用场景
+      placeholder: "例如：使用FuFanAI整理月报的自动化流程"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 📖 背景介绍
+      description: 在使用FuFanAI之前，你面临什么挑战？
+      placeholder: "描述你的工作场景和痛点..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: process
+    attributes:
+      label: 🔧 使用方式
+      description: 你如何使用FuFanAI解决这个问题？
+      placeholder: "描述你创建的任务和工作流..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: 📊 效果对比
+      description: 使用FuFanAI后带来了什么变化？
+      placeholder: |
+        - 效率提升：xx%
+        - 节省时间：xx小时/周
+        - 其他收益：
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ☑️ 授权
+      options:
+        - label: 我同意将本案例用于FuFanAI官方宣传
+          required: true

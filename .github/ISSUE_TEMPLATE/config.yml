@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 使用问题
+    url: https://github.com/InkQuesting/FuFanAI/discussions
+    about: 有使用问题？请到 Discussions 提问
+  - name: 📧 安全漏洞
+    url: mailto:3978003571@qq.com
+    about: 发现安全漏洞？请邮件私密报告
